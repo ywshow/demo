@@ -7,7 +7,18 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>demo-api</artifactId>
+	<name>demo-api</name>
 	<dependencies>
+		<dependency>
+			<groupId>com.ywshow</groupId>
+			<artifactId>demo-configs</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ywshow</groupId>
+			<artifactId>demo-core</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>com.ywshow</groupId>
 			<artifactId>demo-service</artifactId>
@@ -17,11 +28,6 @@
 			<groupId>com.ywshow</groupId>
 			<artifactId>demo-entity</artifactId>
 			<version>${project.parent.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.zookeeper</groupId>
-			<artifactId>zookeeper</artifactId>
-			<version>${demo.zookeeper.version}</version>
 		</dependency>
 	</dependencies>
 </project>

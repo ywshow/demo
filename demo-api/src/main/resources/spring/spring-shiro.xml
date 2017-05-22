@@ -47,7 +47,7 @@
 	        	/statics/**=anon
 	        	/login.html=anon
 	        	/sys/login=anon
-	        	/api/**=anon
+	        	/api/echarts/**=anon
 	        	/captcha.jpg=anon
 	        	/**=authc
 	        </value>
